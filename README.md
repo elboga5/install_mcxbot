@@ -1,28 +1,28 @@
-<h1 align="center">Whaticket Baileys</h1>
+<h1 align="center">mcxbot Baileys v4.0</h1>
 
 <div align="center">
 
-## Vamos instalar?
+## Vamos a instalar?
 
-FAZENDO DOWNLOAD DO INSTALADOR & INICIANDO A PRIMEIRA INSTALAÇÃO (USAR SOMENTE PARA PRIMEIRA INSTALAÇÃO):
+DESCARGAR EL INSTALADOR E INICIAR LA PRIMERA INSTALACIÓN (UTILIZAR SÓLO PARA LA PRIMERA INSTALACIÓN):
 
 ```bash
-sudo apt install -y git && git clone https://github.com/policarponeto/whaticket-saas-install install && sudo chmod -R 777 ./install && cd ./install && sudo ./install_primaria
+sudo apt install -y git && git clone https://github.com/elboga5/install_mcxbot install && sudo chmod -R 777 ./install && cd ./install && sudo ./install_primaria
 ```
 
-ACESSANDO DIRETORIO DO INSTALADOR & INICIANDO INSTALAÇÕES ADICIONAIS (USAR ESTE COMANDO PARA SEGUNDA OU MAIS INSTALAÇÃO:
+ACCEDER AL DIRECTORIO DE INSTALADOR E INICIAR INSTALACIONES ADICIONALES (USE ESTE COMANDO PARA UNA SEGUNDA O MÁS INSTALACIÓN:
 ```bash
 cd && cd ./install && sudo ./install_instancia
 ```
 
 
-## Para Instalação você precisa:
+## Para la instalación necesita:
 
-Uma VPS Ubuntu 20.04 (Configuração recomendada: 3 VCPU's + 4 GB RAM)
+Un VPS Ubuntu 20.04 (Configuración recomendada: 3 VCPU's + 4 GB de RAM)
 
 Subdominio para Frontend
 
-Subdominio para API - backoffice
+Subdominio para API - backend
 
-Email válido para certificação SSL
+Correo electrónico válido para la certificación SSL
 
