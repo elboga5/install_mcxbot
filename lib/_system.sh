@@ -9,7 +9,7 @@
 #######################################
 system_create_user() {
   print_banner
-  printf "${WHITE} �??� Ahora, creemos el usuario para la instancia....${GRAY_LIGHT}"
+  printf "${WHITE} Ahora, creemos el usuario para la instancia....${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -29,7 +29,7 @@ EOF
 #######################################
 system_git_clone() {
   print_banner
-  printf "${WHITE} �??� Descargando el código...${GRAY_LIGHT}"
+  printf "${WHITE} Descargando el código...${GRAY_LIGHT}"
   printf "\n\n"
 
 
@@ -49,7 +49,7 @@ EOF
 #######################################
 system_update() {
   print_banner
-  printf "${WHITE} �??� Actualicemos el sistema...${GRAY_LIGHT}"
+  printf "${WHITE}  Actualizando el sistema...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -71,7 +71,7 @@ EOF
 #######################################
 deletar_tudo() {
   print_banner
-  printf "${WHITE} �??� Vamos a eliminar el sistema...${GRAY_LIGHT}"
+  printf "${WHITE} Vamos a eliminar el sistema...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -102,7 +102,7 @@ EOF
   sleep 2
 
   print_banner
-  printf "${WHITE} �??� Eliminación de la Instancia/Empresa ${empresa_delete} realizado con éxito ...${GRAY_LIGHT}"
+  printf "${WHITE} Eliminación de la Instancia/Empresa ${empresa_delete} realizado con éxito ...${GRAY_LIGHT}"
   printf "\n\n"
 
 
@@ -117,7 +117,7 @@ EOF
 #######################################
 configurar_bloqueio() {
   print_banner
-  printf "${WHITE} �??� Vamos a bloquear el sistema...${GRAY_LIGHT}"
+  printf "${WHITE} Vamos a bloquear el sistema...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -130,7 +130,7 @@ EOF
   sleep 2
 
   print_banner
-  printf "${WHITE} �??� Bloqueo de instancia/empresa ${empresa_bloquear} realizado con éxito ...${GRAY_LIGHT}"
+  printf "${WHITE} Bloqueo de instancia/empresa ${empresa_bloquear} realizado con éxito ...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -144,7 +144,7 @@ EOF
 #######################################
 configurar_desbloqueio() {
   print_banner
-  printf "${WHITE} �??� Vamos Desbloquear el sistema...${GRAY_LIGHT}"
+  printf "${WHITE} Vamos Desbloquear el sistema...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -157,7 +157,7 @@ EOF
   sleep 2
 
   print_banner
-  printf "${WHITE} �??� Desbloqueo de instancia/empresa ${empresa_desbloquear} realizado con éxito ...${GRAY_LIGHT}"
+  printf "${WHITE} Desbloqueo de instancia/empresa ${empresa_desbloquear} realizado con éxito ...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -170,7 +170,7 @@ EOF
 #######################################
 configurar_dominio() {
   print_banner
-  printf "${WHITE} �??� Vamos a cambiar los Dominios...${GRAY_LIGHT}"
+  printf "${WHITE} Vamos a cambiar los Dominios...${GRAY_LIGHT}"
   printf "\n\n"
 
 sleep 2
@@ -262,7 +262,7 @@ EOF
   sleep 2
 
   print_banner
-  printf "${WHITE} �??� Cambio de dominio de la Instancia/Empresa ${empresa_dominio} realizado con éxito ...${GRAY_LIGHT}"
+  printf "${WHITE} Cambio de dominio de la Instancia/Empresa ${empresa_dominio} realizado con éxito ...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -336,7 +336,7 @@ EOF
 #######################################
 system_puppeteer_dependencies() {
   print_banner
-  printf "${WHITE} �??� Instalando dependencias puppeteer ...${GRAY_LIGHT}"
+  printf "${WHITE} Instalando dependencias puppeteer ...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -397,7 +397,7 @@ EOF
 #######################################
 system_pm2_install() {
   print_banner
-  printf "${WHITE} �??� Instalando pm2...${GRAY_LIGHT}"
+  printf "${WHITE} Instalando pm2...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -417,7 +417,7 @@ EOF
 #######################################
 system_snapd_install() {
   print_banner
-  printf "${WHITE} �??� Instalando snapd...${GRAY_LIGHT}"
+  printf "${WHITE} Instalando snapd...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -438,7 +438,7 @@ EOF
 #######################################
 system_certbot_install() {
   print_banner
-  printf "${WHITE} �??� Instalando certbot...${GRAY_LIGHT}"
+  printf "${WHITE} Instalando certbot...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -459,7 +459,7 @@ EOF
 #######################################
 system_nginx_install() {
   print_banner
-  printf "${WHITE} �??� Instalando nginx...${GRAY_LIGHT}"
+  printf "${WHITE} Instalando nginx...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -479,7 +479,7 @@ EOF
 #######################################
 system_nginx_restart() {
   print_banner
-  printf "${WHITE} �??� reiniciando nginx...${GRAY_LIGHT}"
+  printf "${WHITE} reiniciando nginx...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -498,7 +498,7 @@ EOF
 #######################################
 system_nginx_conf() {
   print_banner
-  printf "${WHITE} �??� configurando nginx...${GRAY_LIGHT}"
+  printf "${WHITE} configurando nginx...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -521,7 +521,7 @@ EOF
 #######################################
 system_certbot_setup() {
   print_banner
-  printf "${WHITE} �??� Configurando certbot...${GRAY_LIGHT}"
+  printf "${WHITE} Configurando certbot...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
