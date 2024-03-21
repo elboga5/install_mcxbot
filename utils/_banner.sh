@@ -32,7 +32,7 @@ printf ${CYAN_LIGHT}" ###        ###   ###            ###  ###    \n";
 printf ${CYAN_LIGHT}" ###        ###   #########     ###    ###   \n";
 printf ${CYAN_LIGHT}" ###        ###    ########    ###      ###  \n";
                                                                                                                                                          
-printf "\033[1;33m © panet - Soluções em Internet - https://www.panet.com.br";
+printf "\033[1;33m © panet - Soluciones en Internet - https://www.mcx.com.co";
     printf "\n\n"
   printf "${NC}";
 
